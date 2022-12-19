@@ -1,28 +1,18 @@
 # AutoIRemote integrated with Amazon Alexa
 
-Hi everyone! That project was been made focusing on help people that have many controllers in his life's.\
-Air Conditioners, TVs and maybe even table fans uses infrared controllers obsolete by now.
+Esse projeto foi idealizado com o objetivo em ajudar pessoas que tem muitos controles em suas vidas ou que querem utilizar seus dispositivos via internet\
+Ar condicionados, TVs e talvez até ventiladores de mesa que usam infravermelho.
 
 [![arduino-library-badge](https://www.ardu-badge.com/badge/IRremoteESP8266.svg?)](https://www.ardu-badge.com/IRremoteESP8266)
 
-# Requiriments
-* Amazon Alexa compatible device(Echo,Echo Dot,Echo Show)
-* Nodemcu(esp8266) Module
-* IR Reciver(TSOP38238 and similars)
-* IR LED
-* IRremoteESP8266 library(many thanks to [Mark Szabo-Simon](https://github.com/markszabo) )
+# Equipametos
+* Amazon Alexa(Echo,Echo Dot,Echo Show)
+* Nodemcu(esp8266)
+* Receptor Infravermelho(TSOP38238 and similars)
+* LED Infravermelho
+* Biblioteca IRremoteESP8266(many thanks to [Mark Szabo-Simon](https://github.com/markszabo) )
 
-# Thigs to do
-* Add a OLED Screen to user sees whats happend.
-* Automatize device add config using a web page or something like that.
-* Add a temperature and humidity sensor to turn on/off devices based on the collected data.
-* Anything that could be a good idea!
-
-# Contributing
-If you want to contribute to this project, consider:
-
-* Report bugs and errors
-* Ask for enhancements
-* Improve our documentation
-* Create issues and pull requests
-* Tell other people about this project
+# O que pode ser melhorado?
+* Adicionar uma tela oled para verificar o que está acontecendo.
+* Automatizar a configuração de novos dispositivos utilizando algo como uma página web.
+* Conciliar o código para envio de sinal junto com o de captação.
